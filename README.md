@@ -1,18 +1,16 @@
-# Caesar Cipher Project
+# Caesar Cipher Tool
 
-This project implements the **Caesar Cipher**, a classic encryption technique used to encrypt and decrypt messages by shifting the letters of the alphabet by a specified number. This project was developed during the **Girls Who Code Self-Paced Program 2023**.
+**Caesar Cipher Tool** is a Python program that allows you to encrypt and decrypt messages using the Caesar cipher. This cipher is one of the simplest and most widely known encryption techniques, where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
+
+This project was developed during the **Girls Who Code Self-Paced Program 2023**.
 
 ## Features
+- **Encryption and Decryption**: Encrypt or decrypt messages using a Caesar cipher with a customizable shift key.
+- **Supports All Characters**: Handles uppercase and lowercase letters, digits, and special symbols.
+- **Flexible Key Range**: Allows key values from 0 to 93, covering a broad range of possible shifts.
 
-- **Encryption & Decryption**: Encrypt or decrypt messages by shifting letters in the alphabet based on a user-defined key.
-- **Customizable Key**: Users can choose a key (a number from 0 to 25) to define the shift.
-- **Input Validation**: The program validates the user input to ensure proper functionality.
-- **Case Insensitive**: All input characters are converted to uppercase for uniform processing, though non-alphabetical characters are left unchanged.
+## How It Works
+1. **Encrypt or Decrypt**: The program takes an input message and a shift key to either encrypt or decrypt the message.
+2. **Character Wrapping**: Handles wrapping around the end of the character set to ensure all characters are processed correctly.
 
-## How it Works
-
-The Caesar Cipher works by shifting the letters of the message according to the key provided by the user. Each letter in the alphabet is replaced by the letter that is a fixed number of positions away from it (the key). The same key can be used for both encryption and decryption:
-- **Encryption** shifts the letters forward by the key.
-- **Decryption** shifts the letters backward by the key.
-
-https://replit.com/@marthah48/Programming-Caesars-Cipher-Project?v=1
+https://replit.com/@marthah48/Cipher-Usability-Martha-H?v=1
